@@ -1,0 +1,81 @@
+body {
+	background-color: #faf2e4;
+	background-image: url("aben2.jpg");
+	margin: 0;
+	font-family: sans-serif;
+	border-top-style: solid;
+  border-right-style: dotted;
+  border-bottom-style: solid;
+  border-left-style: dotted;
+	border-color: red;
+	border-width: 5px;
+}
+h1 {
+	text-align: center;
+	color: white;
+	font-family: serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	border-bottom: 1px solid #57b1dc;
+	margin-top: 30px;
+}
+h2 {
+	color: #d1633c;
+	font-size: 1 em;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 1px;
+}
+html {
+	font-family: sans-serif;
+}
+header {
+	background: purple;
+	height: 100px;
+}
+section {
+	display: flex;
+  overflow: hidden;
+}
+@media only screen and (max-width: 600px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+p {
+  display: block;
+  margin-left: 0%;
+  margin-right: 100%;
+  width: 50%;
+  flex-direction: row;
+}
+article {
+	padding: 10px;
+	margin: 10px;
+	border-width: 2px;
+	flex: 1 200px;
+  float: center;
+	background-color: green;
+	padding: 14px 16px;
+	border-bottom: 1px solid #0088dd;
+	border-style: solid;
+}
+blockquote {
+ display: block;
+ margin-top: 1em;
+ width: 200px;
+ font-size: 130%;
+ font-style: italic;
+ font-family: Georgia, Times, serif;
+ margin: 0px 0px 10px 10px;
+ padding: 10px;
+ border-top: 1px solid #665544;
+ border-bottom: 1px solid #665544;
+}

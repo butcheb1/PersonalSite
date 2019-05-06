@@ -1,0 +1,136 @@
+body {
+	margin: 0 15%;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: black;
+	background-image: url("jazzbackground.jpg");
+	background-color: #cccccc;}
+html {
+	font-family: sans-serif;
+	}
+header {
+	background: purple;
+	height: 100px;
+	}
+section {
+	display: flex;
+	}
+p {
+	padding: 1px;
+	margin: 1px;
+	flex: 1 200px;
+	position: static;
+	}
+article {
+	padding: 5px;
+	margin: 5px;
+	border-width: 2px;
+	flex: 1 100px;
+	background-color: green;
+	padding: 2px;
+	border-bottom: 1px solid #0088dd;
+	border-style: solid;
+	}
+h1 {
+	text-align: center;
+	font-family: Verdana;
+	font-weight: bold;
+  text-decoration: underline;
+	font-variant: normal;
+	text-transform: uppercase;
+	border-bottom: 1px solid #57b1dc;
+	margin-top: 30px;
+	font-size: 200%;}
+.column {
+	float: left;
+  width: 50%;}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;}
+.wrapper {
+	margin-right: auto;
+	margin-left:  auto;
+  max-width: 960px;
+  padding-right: 10px;
+	padding-left:  10px;
+  box-shadow: 5px 10px;}
+h2 {
+	font-family: Arial;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+	border-bottom: 1px solid #57b1dc;
+	margin-top: 30px;
+	color: black;
+	background-color: yellow;
+	opacity: 0.5;
+	padding: 1px;}
+h3 {
+	font-family: Arial;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+	border-bottom: 1px solid #57b1dc;
+	margin-top: 30px;
+	color: black;
+	background-color: red;
+	opacity: 0.5;
+	padding: 1px;}
+h4 {
+	font-family: Arial;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+	border-bottom: 1px solid #57b1dc;
+	margin-top: 30px;
+	color: black;
+	background-color: lime;
+	opacity: 0.5;
+	padding: 1px;}
+ul {
+	border-style: solid;
+	background: #73AD21;
+	border-radius: 25px;
+	box-shadow: 5px 10px;}
+ul.a {
+	list-style-type: circle;}
+ul.b {
+	list-style-type: square;}
+ul.c {
+	list-style-type: upper-roman;}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;}
+p {
+	font-family: Arial;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	color: black;}
+a:link {
+	color: deeppink;
+	text-decoration: none;}
+a:visited {
+	color: black;}
+a:hover {
+	color: deeppink;
+	text-decoration: underline;}
+a:active {
+	color: darkcyan;}
